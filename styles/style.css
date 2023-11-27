@@ -1,0 +1,13 @@
+.header {
+    width: 1920px;
+    height: 158px;
+    flex-shrink: 0;
+}
+
+
+.top-nav {
+    background: #F2F2F2;
+    width: 1920px;
+    height: 60px;
+    flex-shrink: 0;
+}
