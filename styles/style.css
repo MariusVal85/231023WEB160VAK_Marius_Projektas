@@ -1,5 +1,12 @@
-nav {
+
+
+.top-nav {
+    background-color: #F2F2F2;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
+.nav {
+    display: flex;
+    
+}
