@@ -1,12 +1,30 @@
+.header {
+    width: 1920px;
+    height: 158px;
+    flex-shrink: 0;
+}
 
+.email{
+    display: flex;
+    width: 536px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 68px;
+}
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 423px;
+    margin-left: 350px;
+}
 
 .top-nav {
+    width: 1920px;
+    height: 60px;
+    flex-shrink: 0;
     background-color: #F2F2F2;
     display: flex;
     justify-content: space-around;
 }
 
-.nav {
-    display: flex;
-    
-}
