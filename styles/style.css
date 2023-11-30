@@ -10,10 +10,6 @@ body {
     margin: 0 auto;
 }
 
-.wrapper p {
-    font-size: 18px;
-}
-
 .top-nav {
     width: 100%;
     background-color: #F2F2F2;
@@ -58,7 +54,13 @@ body {
     flex-shrink: 0;
 }
 
-#text1 {
+.menu {
+    display: flex;
+    width: 100%;
+    background-color: #FFB342;;
+}
+
+.text-1 {
     color: #1C2752;
     font-family: Mulish;
     font-size: 20px;
@@ -67,7 +69,7 @@ body {
     line-height: normal;
 }
 
-#text2 {
+.text-2 {
     color: #7E7E7E;
     font-family: Inter;
     font-size: 18px;
@@ -76,7 +78,7 @@ body {
     line-height: normal;
 }
 
-#text-3 {
+.text-3 {
     color: #FFF;
     font-family: Mulish;
     font-size: 15px;
@@ -85,7 +87,7 @@ body {
     line-height: normal;
 }
 
-#text-4 {
+.text-4 {
     color: #FFF;
     font-family: Inter;
     font-size: 13px;
@@ -136,6 +138,40 @@ h1 {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
+}
+
+.top-text {
+    position: absolute;
+    bottom: 150px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    display: flex;
+}
+
+.inside-top-text-1 {
+    background: #FFC368;
+    display: flex;
+    padding: 20px 29px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.inside-top-text-2 {
+    background: #FFB342;
+    display: flex;
+    padding: 21px 30px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.inside-wrapper1 {
+    position: relative;
+    margin-bottom: 50px;
 }
 
 .wrapper1 {
@@ -157,12 +193,10 @@ h1 {
 
 .button {
     background-color: white;
-    width: 80px;
-    height: 20px;
     border: none;
 }
 
-.button p {
+.button span {
     color: #1C2752;
     font-family: Inter;
     font-size: 14px;
@@ -172,7 +206,7 @@ h1 {
 }
 
 .footer {
-    width: 1199px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -249,6 +283,14 @@ h1 {
     width: 250px;
 }
 
+.about p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 144.523%; /* 26.014px */
+}
+
 .explore {
     display: flex;
     width: 150px;
@@ -256,7 +298,6 @@ h1 {
     font-family: Mulish;
     font-size: 15px;
     font-style: normal;
-    font-weight: 700;
     line-height: normal;
 }
 
@@ -267,7 +308,6 @@ h1 {
     font-family: Mulish;
     font-size: 15px;
     font-style: normal;
-    font-weight: 700;
     line-height: normal;
 }
 
@@ -278,15 +318,13 @@ h1 {
     font-family: Mulish;
     font-size: 15px;
     font-style: normal;
-    font-weight: 700;
     line-height: normal;
 }
 
-p {
+.copyrights {
     color: #FFF;
     font-family: Inter;
     font-size: 12px;
     font-style: normal;
-    font-weight: 400;
     line-height: 144.523%; /* 26.014px */
 }
