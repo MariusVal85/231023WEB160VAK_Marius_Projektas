@@ -10,6 +10,12 @@ body {
     margin: 0 auto;
 }
 
+.footer-wrapper {
+    display: flex;
+    width: 850px;
+    margin: 0 auto;
+}
+
 .top-nav {
     width: 100%;
     background-color: #F2F2F2;
@@ -56,8 +62,15 @@ body {
 
 .menu {
     display: flex;
-    width: 100%;
-    background-color: #FFB342;;
+    width: 90%;
+    background-color: #FFB342;
+    margin: 0 auto;
+}
+
+.nav-menu {
+    display: inline;
+    margin: 0 auto;
+    padding: 15px;
 }
 
 .text-1 {
@@ -171,7 +184,6 @@ h1 {
 
 .inside-wrapper1 {
     position: relative;
-    margin-bottom: 50px;
 }
 
 .wrapper1 {
@@ -270,17 +282,23 @@ h1 {
 
 .content {
     display: flex;
+    width: 1199px;
+}
+
+.main-photo {
+    margin-bottom: 50px;
 }
 
 .inside-content {
     display: flex;
     width: 1199px;
-    gap: 70px
+    gap: 300px;
+
 }
 
 .about {
     display: flex;
-    width: 250px;
+    width: 350px;
 }
 
 .about p {
