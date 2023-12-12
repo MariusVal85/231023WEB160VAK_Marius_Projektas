@@ -2,6 +2,52 @@ body {
     margin: 0;
 }
 
+span {
+    color: #1C2752;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+h2 {
+    color: #1C2752;
+    font-family: Mulish;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#nav-button {
+    background: #1C2752;
+    display: flex;
+    padding: 20px 22px 21px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+button.nav-menu {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.menu-wrapper {
+    display: flex;
+    width: 1199px;
+}
+
+.nav-icon {
+    display: flex;
+    gap: 14px;
+}
+
 .wrapper {
     display: flex;
     justify-content: space-between;
@@ -14,6 +60,7 @@ body {
     display: flex;
     width: 850px;
     margin: 0 auto;
+    gap: 66px;
 }
 
 .top-nav {
@@ -71,6 +118,32 @@ body {
     display: inline;
     margin: 0 auto;
     padding: 15px;
+
+}
+
+.nav-menu li {
+    color: #2F2F2F;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+p.text-1 {
+    margin: 0 0 2px 0;
+}
+
+p.text-2 {
+    margin: 0;
+}
+
+p.text-3 {
+    margin: 0;
+}
+
+p.text-4 {
+    margin: 0;
 }
 
 .text-1 {
@@ -156,7 +229,7 @@ h1 {
 
 .top-text {
     position: absolute;
-    bottom: 150px;
+    bottom: 0px;
     left: 50%;
     transform: translate(-50%, 50%);
     display: flex;
@@ -226,6 +299,10 @@ h1 {
     margin: 0 auto;
 }
 
+.footer-wrapper li {
+    list-style: none;
+}
+
 .contact-footer {
     display: flex;
     gap: 60px;
@@ -244,7 +321,12 @@ h1 {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+}
 
+.logo-mail-address {
+    display: flex;
+    width: 1199px;
+    margin: 0 auto;
 }
 
 .logo-footer {
@@ -258,7 +340,7 @@ h1 {
 
 .mail-footer {
     display: flex;
-    width: 180px;
+    width: 200px;
     align-items: center;
     gap: 7px;
     flex-shrink: 0;
@@ -266,7 +348,7 @@ h1 {
 
 .call-footer {
     display: flex;
-    width: 180px;
+    width: 200px;
     align-items: center;
     gap: 7px;
     flex-shrink: 0;
@@ -274,7 +356,7 @@ h1 {
 
 .address-footer {
     display: flex;
-    width: 180px;
+    width: 200px;
     align-items: center;
     gap: 7px;
     flex-shrink: 0;
@@ -287,18 +369,21 @@ h1 {
 
 .main-photo {
     margin-bottom: 50px;
+    position: relative;
 }
 
 .inside-content {
     display: flex;
     width: 1199px;
-    gap: 300px;
+    gap: 132px;
 
 }
 
 .about {
     display: flex;
-    width: 350px;
+    flex-direction: column;
+    width: 415px;
+    gap: 60px;
 }
 
 .about p {
@@ -309,33 +394,60 @@ h1 {
     line-height: 144.523%; /* 26.014px */
 }
 
-.explore {
-    display: flex;
-    width: 150px;
+.explore li {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175.023%; /* 31.504px */
+    
+}
+
+.explore p {
     color: #FFF;
     font-family: Mulish;
-    font-size: 15px;
+    font-size: 20px;
     font-style: normal;
+    font-weight: 700;
     line-height: normal;
 }
 
-.quicklink {
-    display: flex;
-    width: 150px;
+.quicklink li {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175.023%; /* 31.504px */
+    
+}
+
+.quicklink p {
     color: #FFF;
     font-family: Mulish;
-    font-size: 15px;
+    font-size: 20px;
     font-style: normal;
+    font-weight: 700;
     line-height: normal;
 }
 
-.utility-pages {
-    display: flex;
-    width: 150px;
+.utility-pages li {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175.023%; /* 31.504px */
+    
+}
+
+.utility-pages p {
     color: #FFF;
     font-family: Mulish;
-    font-size: 15px;
+    font-size: 20px;
     font-style: normal;
+    font-weight: 700;
     line-height: normal;
 }
 
@@ -346,3 +458,10 @@ h1 {
     font-style: normal;
     line-height: 144.523%; /* 26.014px */
 }
+
+.about-icons {
+    display: flex;
+    width: 100px;
+    gap: 15px;
+}
+
